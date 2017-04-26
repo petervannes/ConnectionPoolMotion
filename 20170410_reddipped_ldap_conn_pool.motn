@@ -243,7 +243,7 @@
 	<panZoom camera="-1314101756" zoom="0.72777777910232544" panX="82" panY="-1.7117044304477531" mode="2" centered="0"/>
 	<panZoom camera="-1314101619" zoom="0.92794532269947438" panX="-125" panY="-106" mode="1" centered="1"/>
 	<panZoom camera="-1314101591" zoom="1" panX="-67" panY="-144" mode="1" centered="1"/>
-	<panZoom camera="0" zoom="0.31481480598449707" panX="605.55926119309879" panY="3.7240798181956052" mode="2" centered="0"/>
+	<panZoom camera="0" zoom="0.47777777910232544" panX="449" panY="2" mode="2" centered="1"/>
 	<panZoom camera="1" zoom="1" panX="-178.99999999999994" panY="-144" mode="1" centered="1"/>
 	<panZoom camera="3" zoom="1" panX="-179" panY="-144" mode="1" centered="1"/>
 	<panZoom camera="6" zoom="1" panX="-174.19996643066406" panY="-144" mode="1" centered="0"/>
@@ -284,7 +284,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.6111111111111112</videoVerticalZoom>
 	<audioVerticalZoom>1.5555555820465088</audioVerticalZoom>
-	<displayRange in="-159646487 39090000 1 0" out="18712053360 156360000 1 0"/>
+	<displayRange in="-1994536592 1000000000 3 0" out="121762430075 1000000000 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -292,8 +292,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-159646487 39090000 1 0" out="18712053360 156360000 1 0"/>
-	<currentviewvolume originx="-4.0840748784855458" originy="-62.5" width="123.75696666666667" height="125"/>
+	<displayRange in="-1994536592 1000000000 3 0" out="121762430075 1000000000 3 0"/>
+	<currentviewvolume originx="-1.994536592" originy="-62.5" width="123.75696666666667" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -337,12 +337,11 @@
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
-	<currentFrame>1725724 120000 1 0</currentFrame>
-	<currentObject>2980866002</currentObject>
-	<activeLayer>2980866002</activeLayer>
+	<currentFrame>6474468 120000 1 0</currentFrame>
+	<activeLayer>1999826235</activeLayer>
 	<timeRange offset="0 1 1 0" duration="36116080 120000 1 0"/>
 	<playRange offset="0 1 1 0" duration="14850836 120000 1 0"/>
-	<flags>1</flags>
+	<flags>129</flags>
 	<audioTracks>0</audioTracks>
 	<timemarkerset/>
 	<guideset/>
@@ -5062,8 +5061,8 @@
 		</layer>
 		<layer name="Animation Group" id="2980865110">
 			<layer name="LDAP Connections" id="2980865678">
-				<layer name="Connection_1" id="2980866002">
-					<scenenode name="Circle 3" id="2980865999" factoryID="16" version="5">
+				<layer name="Connection_8" id="2980867611">
+					<scenenode name="Circle 8" id="2980867612" factoryID="16" version="5">
 						<isShapeStyle>0</isShapeStyle>
 						<aspectRatio>1</aspectRatio>
 						<flags>0</flags>
@@ -5071,12 +5070,6 @@
 						<foldFlags>0</foldFlags>
 						<baseFlags>524304</baseFlags>
 						<parameter name="Properties" id="1" flags="8589938704">
-							<parameter name="Transform" id="100" flags="8589938704">
-								<parameter name="Position" id="101" flags="8589938704">
-									<foldFlags>11</foldFlags>
-									<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
-								</parameter>
-							</parameter>
 							<parameter name="Lighting" id="230" flags="8589938706">
 								<foldFlags>15</foldFlags>
 							</parameter>
@@ -5170,13 +5163,13 @@
 					<flags>0</flags>
 					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
 					<foldFlags>0</foldFlags>
-					<baseFlags>268959761</baseFlags>
+					<baseFlags>524304</baseFlags>
 					<parameter name="Properties" id="1" flags="8589938704">
 						<parameter name="Transform" id="100" flags="8589938704">
 							<parameter name="Position" id="101" flags="8589938704">
 								<foldFlags>11</foldFlags>
-								<parameter name="X" id="1" flags="8589934608" default="0" value="0"/>
-								<parameter name="Y" id="2" flags="8589934608" default="0" value="0"/>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
 								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
 							</parameter>
 							<parameter name="Anchor Point" id="107" flags="8589938704">
@@ -5203,12 +5196,1483 @@
 						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
 						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
 					</parameter>
-					<behavior name="Move" id="2980866043" factoryID="12">
-						<timing in="2140138 120000 1 0" out="2394392 120000 1 0" offset="1897896 120000 1 0"/>
+					<behavior name="Spin 8-b" id="2980867623" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867624" factoryID="12">
+						<timing in="5439434 120000 1 0" out="5693688 120000 1 0" offset="5197192 120000 1 0"/>
 						<baseFlags>8589934608</baseFlags>
 						<parameter name="Position" id="200" flags="8589938688">
 							<foldFlags>11</foldFlags>
-							<parameter name="Y" id="2" flags="8590065680" default="0" value="-360"/>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_7" id="2980867581">
+					<scenenode name="Circle 7" id="2980867582" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867626" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867610" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867593" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867594" factoryID="12">
+						<timing in="4938934 120000 1 0" out="5193188 120000 1 0" offset="4696692 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_6" id="2980867553">
+					<scenenode name="Circle 6" id="2980867554" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867627" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867609" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867596" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867580" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867565" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867566" factoryID="12">
+						<timing in="4438434 120000 1 0" out="4692688 120000 1 0" offset="4196192 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_5" id="2980867523">
+					<scenenode name="Circle 5" id="2980867524" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867628" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867608" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867597" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867579" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867568" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-a" id="2980867552" factoryID="24">
+						<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-b" id="2980867534" factoryID="24">
+						<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867535" factoryID="12">
+						<timing in="3937934 120000 1 0" out="4192188 120000 1 0" offset="3695692 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_4" id="2980867501">
+					<scenenode name="Circle 4" id="2980867502" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867629" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867607" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867598" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867578" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867569" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-a" id="2980867551" factoryID="24">
+						<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-b" id="2980867542" factoryID="24">
+						<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-a" id="2980867541" factoryID="24">
+						<timing in="3937934 120000 1 0" out="4058054 120000 1 0" offset="3937934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-b" id="2980867512" factoryID="24">
+						<timing in="3815812 120000 1 0" out="3935932 120000 1 0" offset="3815812 120000 1 0"/>
+						<baseFlags>8589934672</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867513" factoryID="12">
+						<timing in="3559556 120000 1 0" out="3813810 120000 1 0" offset="3317314 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_3" id="2980867481">
+					<scenenode name="Circle 3" id="2980867482" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867630" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867606" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867599" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867577" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867570" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-a" id="2980867550" factoryID="24">
+						<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-b" id="2980867543" factoryID="24">
+						<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-a" id="2980867540" factoryID="24">
+						<timing in="3937934 120000 1 0" out="4058054 120000 1 0" offset="3937934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-b" id="2980867522" factoryID="24">
+						<timing in="3815812 120000 1 0" out="3935932 120000 1 0" offset="3815812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-a" id="2980867518" factoryID="24">
+						<timing in="3437434 120000 1 0" out="3557554 120000 1 0" offset="3437434 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 3-b" id="2980867492" factoryID="24">
+						<timing in="3315312 120000 1 0" out="3435432 120000 1 0" offset="3315312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867493" factoryID="12">
+						<timing in="3059056 120000 1 0" out="3313310 120000 1 0" offset="2816814 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_2" id="2980867463">
+					<scenenode name="Circle 2" id="2980867464" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524304</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524304</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867631" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867605" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867600" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867576" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867571" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-a" id="2980867549" factoryID="24">
+						<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-b" id="2980867544" factoryID="24">
+						<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-a" id="2980867539" factoryID="24">
+						<timing in="3937934 120000 1 0" out="4058054 120000 1 0" offset="3937934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-b" id="2980867521" factoryID="24">
+						<timing in="3815812 120000 1 0" out="3935932 120000 1 0" offset="3815812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-a" id="2980867517" factoryID="24">
+						<timing in="3437434 120000 1 0" out="3557554 120000 1 0" offset="3437434 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 3-b " id="2980867500" factoryID="24">
+						<timing in="3315312 120000 1 0" out="3435432 120000 1 0" offset="3315312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 3-a" id="2980867497" factoryID="24">
+						<timing in="2936934 120000 1 0" out="3057054 120000 1 0" offset="2936934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 2-b" id="2980867479" factoryID="24">
+						<timing in="2814812 120000 1 0" out="2934932 120000 1 0" offset="2814812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980867476" factoryID="12">
+						<timing in="2558556 120000 1 0" out="2812810 120000 1 0" offset="2316314 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
+						</parameter>
+						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
+					</behavior>
+				</layer>
+				<layer name="Connection_1" id="2980866002">
+					<scenenode name="Circle 1" id="2980865999" factoryID="16" version="5">
+						<isShapeStyle>0</isShapeStyle>
+						<aspectRatio>1</aspectRatio>
+						<flags>0</flags>
+						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
+						<foldFlags>0</foldFlags>
+						<baseFlags>524368</baseFlags>
+						<parameter name="Properties" id="1" flags="8589938704">
+							<parameter name="Lighting" id="230" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Shadows" id="234" flags="8589938706">
+								<foldFlags>15</foldFlags>
+							</parameter>
+							<parameter name="Reflection" id="223" flags="8589971474">
+								<foldFlags>131087</foldFlags>
+							</parameter>
+						</parameter>
+						<parameter name="Object" id="2" flags="8589938704">
+							<parameter name="Shape" id="353" flags="8589938704">
+								<parameter name="Animation" id="117" flags="8589934610" default="0" value="0">
+									<curve_X/>
+									<curve_Y/>
+									<closed>0</closed>
+								</parameter>
+								<parameter name="Shape Type" id="100" flags="12884967442" default="4" value="4"/>
+								<parameter name="Closed" id="116" flags="8590000146" default="0" value="1"/>
+								<parameter name="Roundness" id="144" flags="8589934610" default="0" value="0"/>
+								<parameter name="Preserve Scale" id="152" flags="8589934610" default="1" value="1"/>
+								<parameter name="Fill" id="113" flags="8589938704">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Fill Color" id="111" flags="12884906000">
+										<foldFlags>15</foldFlags>
+										<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
+										<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
+										<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+									</parameter>
+								</parameter>
+								<parameter name="Outline" id="108" flags="8589971472">
+									<foldFlags>131072</foldFlags>
+									<parameter name="Arrow Length" id="132" flags="8589934610" default="3" value="3"/>
+									<parameter name="Arrow Width" id="133" flags="8589934610" default="3" value="3"/>
+									<parameter name="Pressure Over Stroke" id="136" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+									<parameter name="Pen Speed Over Stroke" id="138" flags="8724348946">
+										<curve type="1" default="1" value="1" round="0">
+											<numberOfKeypoints>2</numberOfKeypoints>
+											<min>0</min>
+											<max>1</max>
+											<keypoint interpolation="1" flags="0">
+												<time>0 1 1 0</time>
+												<value>1</value>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>0</outputTangentValue>
+											</keypoint>
+											<keypoint interpolation="1" flags="0">
+												<time>1 1 1 0</time>
+												<value>1</value>
+												<inputTangentTime>-0.33333333333333331</inputTangentTime>
+												<inputTangentValue>0</inputTangentValue>
+												<outputTangentTime>0.33333333333333331</outputTangentTime>
+												<outputTangentValue>-0</outputTangentValue>
+											</keypoint>
+										</curve>
+										<rangeName>Stroke Length</rangeName>
+									</parameter>
+								</parameter>
+								<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+								<parameter name="Radius" id="160" flags="8589938704">
+									<foldFlags>8388623</foldFlags>
+									<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
+									<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+								</parameter>
+								<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
+							</parameter>
+						</parameter>
+					</scenenode>
+					<aspectRatio>1</aspectRatio>
+					<flags>0</flags>
+					<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
+					<foldFlags>0</foldFlags>
+					<baseFlags>524368</baseFlags>
+					<parameter name="Properties" id="1" flags="8589938704">
+						<parameter name="Transform" id="100" flags="8589938704">
+							<parameter name="Position" id="101" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="-1.5543122344752192e-15"/>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
+								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
+							</parameter>
+							<parameter name="Anchor Point" id="107" flags="8589938704">
+								<foldFlags>11</foldFlags>
+								<parameter name="Y" id="2" flags="8589934608" default="0" value="-150"/>
+							</parameter>
+						</parameter>
+						<parameter name="Lighting" id="230" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Shadows" id="234" flags="8589938706">
+							<foldFlags>15</foldFlags>
+						</parameter>
+						<parameter name="Reflection" id="223" flags="8589971474">
+							<foldFlags>131087</foldFlags>
+						</parameter>
+					</parameter>
+					<parameter name="Object" id="2" flags="8589938704">
+						<parameter name="Type" id="307" flags="12884967440" default="1" value="0"/>
+						<parameter name="Fixed Width" id="302" flags="12884901908" default="1920" value="1920"/>
+						<parameter name="Fixed Height" id="303" flags="12884901908" default="1080" value="1080"/>
+						<parameter name="Flatten" id="311" flags="8589934610" default="0" value="0"/>
+						<parameter name="Layer Order" id="305" flags="8589934610" default="0" value="0"/>
+						<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
+						<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
+					</parameter>
+					<behavior name="Spin 8-b" id="2980867632" factoryID="24">
+						<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 8-a" id="2980867604" factoryID="24">
+						<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-b" id="2980867601" factoryID="24">
+						<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 7-a" id="2980867575" factoryID="24">
+						<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-b" id="2980867572" factoryID="24">
+						<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 6-a" id="2980867548" factoryID="24">
+						<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-b" id="2980867545" factoryID="24">
+						<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 5-a" id="2980867538" factoryID="24">
+						<timing in="3937934 120000 1 0" out="4058054 120000 1 0" offset="3937934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-b" id="2980867520" factoryID="24">
+						<timing in="3815812 120000 1 0" out="3935932 120000 1 0" offset="3815812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 4-a" id="2980867516" factoryID="24">
+						<timing in="3437434 120000 1 0" out="3557554 120000 1 0" offset="3437434 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 3-b " id="2980867499" factoryID="24">
+						<timing in="3315312 120000 1 0" out="3435432 120000 1 0" offset="3315312 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 3-a" id="2980867496" factoryID="24">
+						<timing in="2936934 120000 1 0" out="3057054 120000 1 0" offset="2936934 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 2-b" id="2980867480" factoryID="24">
+						<timing in="2814812 120000 1 0" out="2934932 120000 1 0" offset="2814812 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 2-a" id="2980867461" factoryID="24">
+						<timing in="2436434 120000 1 0" out="2556554 120000 1 0" offset="2436434 120000 1 0"/>
+						<baseFlags>8589934608</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Spin 1-b" id="2980867455" factoryID="24">
+						<timing in="2314312 120000 1 0" out="2434432 120000 1 0" offset="2314312 120000 1 0"/>
+						<baseFlags>8589934672</baseFlags>
+						<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+						<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+						<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+					</behavior>
+					<behavior name="Move" id="2980866043" factoryID="12">
+						<timing in="1937936 120000 1 0" out="2192190 120000 1 0" offset="1695694 120000 1 0"/>
+						<baseFlags>8589934672</baseFlags>
+						<parameter name="Position" id="200" flags="8589938688">
+							<foldFlags>11</foldFlags>
+							<parameter name="X" id="1" flags="8590065680" default="0" value="29.064056396484546"/>
+							<parameter name="Y" id="2" flags="8590065680" default="0" value="-25.644531250000007"/>
 						</parameter>
 						<parameter name="Speed" id="203" flags="8590000144" default="0" value="2"/>
 					</behavior>
@@ -5841,7 +7305,7 @@
 				<aspectRatio>1</aspectRatio>
 				<flags>0</flags>
 				<timing in="1209208 120000 1 0" out="15561546 120000 1 0" offset="88088 120000 1 0"/>
-				<foldFlags>1</foldFlags>
+				<foldFlags>0</foldFlags>
 				<baseFlags>524304</baseFlags>
 				<parameter name="Properties" id="1" flags="8589938704">
 					<parameter name="Transform" id="100" flags="8589938704">
@@ -5869,8 +7333,106 @@
 					<parameter name="Aperture Width" id="312" flags="12884901906" default="1920" value="1920"/>
 					<parameter name="Aperture Height" id="313" flags="12884901906" default="1080" value="1080"/>
 				</parameter>
+				<behavior name="Spin 8-b" id="2980867633" factoryID="24">
+					<timing in="5695690 120000 1 0" out="5815810 120000 1 0" offset="5695690 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 8-a" id="2980867603" factoryID="24">
+					<timing in="5317312 120000 1 0" out="5437432 120000 1 0" offset="5317312 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 7-b" id="2980867602" factoryID="24">
+					<timing in="5195190 120000 1 0" out="5315310 120000 1 0" offset="5195190 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 7-a" id="2980867574" factoryID="24">
+					<timing in="4816812 120000 1 0" out="4936932 120000 1 0" offset="4816812 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 6-b" id="2980867573" factoryID="24">
+					<timing in="4694690 120000 1 0" out="4814810 120000 1 0" offset="4694690 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 6-a" id="2980867547" factoryID="24">
+					<timing in="4316312 120000 1 0" out="4436432 120000 1 0" offset="4316312 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 5-b" id="2980867546" factoryID="24">
+					<timing in="4194190 120000 1 0" out="4314310 120000 1 0" offset="4194190 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 5-a" id="2980867537" factoryID="24">
+					<timing in="3937934 120000 1 0" out="4058054 120000 1 0" offset="3937934 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 4-b" id="2980867519" factoryID="24">
+					<timing in="3815812 120000 1 0" out="3935932 120000 1 0" offset="3815812 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 4-a" id="2980867515" factoryID="24">
+					<timing in="3437434 120000 1 0" out="3557554 120000 1 0" offset="3437434 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 3-b" id="2980867498" factoryID="24">
+					<timing in="3315312 120000 1 0" out="3435432 120000 1 0" offset="3315312 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 3-a" id="2980867495" factoryID="24">
+					<timing in="2936934 120000 1 0" out="3057054 120000 1 0" offset="2936934 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 2-b" id="2980867478" factoryID="24">
+					<timing in="2814812 120000 1 0" out="2934932 120000 1 0" offset="2814812 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
+				<behavior name="Spin 2-a" id="2980867462" factoryID="24">
+					<timing in="2436434 120000 1 0" out="2556554 120000 1 0" offset="2436434 120000 1 0"/>
+					<baseFlags>8589934608</baseFlags>
+					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
+					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
+					<parameter name="Spin To" id="402" flags="8589934608" default="0" value="0.39269908169872414"/>
+				</behavior>
 				<behavior name="Spin 1-b" id="2980865865" factoryID="24">
-					<timing in="2434432 120000 1 0" out="2554552 120000 1 0" offset="2434432 120000 1 0"/>
+					<timing in="2314312 120000 1 0" out="2434432 120000 1 0" offset="2314312 120000 1 0"/>
 					<baseFlags>8589934608</baseFlags>
 					<parameter name="Increment" id="401" flags="8590000144" default="0" value="1"/>
 					<parameter name="Spin Rate" id="400" flags="8594128912" default="0" value="0.47996554429844096"/>
