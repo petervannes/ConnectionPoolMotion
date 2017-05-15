@@ -367,7 +367,7 @@
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
-	<currentFrame>10432422 120000 1 0</currentFrame>
+	<currentFrame>10378368 120000 1 0</currentFrame>
 	<currentObject>2980867524</currentObject>
 	<activeLayer>2980870140</activeLayer>
 	<timeRange offset="0 1 1 0" duration="36116080 120000 1 0"/>
@@ -5874,7 +5874,7 @@
 									<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
 								</parameter>
 							</parameter>
-							<behavior name="Move copy" id="2980870139" factoryID="12">
+							<behavior name="Move Back" id="2980870139" factoryID="12">
 								<timing in="10086076 120000 1 0" out="10444434 120000 1 0" offset="10086076 120000 1 0"/>
 								<baseFlags>8589934609</baseFlags>
 								<parameter name="Position" id="200" flags="8589938688">
