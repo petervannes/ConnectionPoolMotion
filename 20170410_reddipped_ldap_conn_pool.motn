@@ -244,7 +244,7 @@
 	<showHighQualityResampling>0</showHighQualityResampling>
 	<showShapeAntialiasing>1</showShapeAntialiasing>
 	<show3DIntersectionAntialiasing>0</show3DIntersectionAntialiasing>
-	<cameraType>-1314101756</cameraType>
+	<cameraType>0</cameraType>
 	<cameraName>Camera</cameraName>
 	<panZoom camera="-1314101756" zoom="0.33333333333333331" panX="280" panY="60" mode="1" centered="0"/>
 	<panZoom camera="-1314101619" zoom="0.92794532269947438" panX="-125" panY="-106" mode="1" centered="1"/>
@@ -291,7 +291,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1</videoVerticalZoom>
 	<audioVerticalZoom>1.5555555820465088</audioVerticalZoom>
-	<displayRange in="-2217475431 1000000000 3 0" out="121539491236 1000000000 3 0"/>
+	<displayRange in="-159646487 35160000 1 0" out="4191648461 35160000 1 0"/>
 </timeline>
 
 <curveeditor>
@@ -299,8 +299,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-2217475431 1000000000 3 0" out="121539491236 1000000000 3 0"/>
-	<currentviewvolume originx="-2.217475431" originy="-62.5" width="123.75696666666667" height="125"/>
+	<displayRange in="-159646487 35160000 1 0" out="4191648461 35160000 1 0"/>
+	<currentviewvolume originx="-4.5405713026166099" originy="-62.5" width="123.75696666666667" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -367,8 +367,8 @@
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
-	<currentFrame>10378368 120000 1 0</currentFrame>
-	<currentObject>2980867524</currentObject>
+	<currentFrame>6992986 120000 1 0</currentFrame>
+	<currentObject>2980870140</currentObject>
 	<activeLayer>2980870140</activeLayer>
 	<timeRange offset="0 1 1 0" duration="36116080 120000 1 0"/>
 	<playRange offset="0 1 1 0" duration="14850836 120000 1 0"/>
@@ -4266,7 +4266,7 @@
 						<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 					</parameter>
 					<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-						<parameter name="Substance" id="2980869696" flags="12884906002" factoryID="33">
+						<parameter name="Substance" id="2980870844" flags="12884906002" factoryID="33">
 							<parameter name="Color" id="1" flags="4295004162">
 								<foldFlags>15</foldFlags>
 							</parameter>
@@ -5775,17 +5775,9 @@
 							<aspectRatio>1</aspectRatio>
 							<flags>0</flags>
 							<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="1781780 120000 1 0"/>
-							<foldFlags>8192</foldFlags>
+							<foldFlags>0</foldFlags>
 							<baseFlags>524304</baseFlags>
 							<parameter name="Properties" id="1" flags="8589938704">
-								<parameter name="Transform" id="100" flags="8589938704">
-									<parameter name="Position" id="101" flags="8589938704">
-										<foldFlags>11</foldFlags>
-										<parameter name="X" id="1" flags="8589934608" default="0" value="7.1054273576010019e-15"/>
-										<parameter name="Y" id="2" flags="8589934608" default="0" value="2.8421709430404007e-14"/>
-										<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
-									</parameter>
-								</parameter>
 								<parameter name="Lighting" id="230" flags="8589938706">
 									<foldFlags>15</foldFlags>
 								</parameter>
@@ -5811,9 +5803,9 @@
 										<foldFlags>131072</foldFlags>
 										<parameter name="Fill Color" id="111" flags="12884906000">
 											<foldFlags>15</foldFlags>
-											<parameter name="Red" id="1" flags="8589934608" default="1" value="-0.42577275633811951"/>
-											<parameter name="Green" id="2" flags="8589934608" default="1" value="0.64053183794021606"/>
-											<parameter name="Blue" id="3" flags="8589934608" default="1" value="0.85589772462844849"/>
+											<parameter name="Red" id="1" flags="8606711824" default="1" value="-0.42577275633811951"/>
+											<parameter name="Green" id="2" flags="8606711824" default="1" value="0.64053183794021606"/>
+											<parameter name="Blue" id="3" flags="8606711824" default="1" value="0.85589772462844849"/>
 										</parameter>
 									</parameter>
 									<parameter name="Outline" id="108" flags="8589971472">
@@ -5865,29 +5857,30 @@
 											<rangeName>Stroke Length</rangeName>
 										</parameter>
 									</parameter>
-									<parameter name="Curvature" id="159" flags="12884901904" default="1" value="1"/>
+									<parameter name="Curvature" id="159" flags="12901679120" default="1" value="1"/>
 									<parameter name="Radius" id="160" flags="8589938704">
 										<foldFlags>8388623</foldFlags>
-										<parameter name="X" id="1" flags="12884901904" default="48.452438354478872" value="48.452438354478872"/>
-										<parameter name="Y" id="2" flags="12884901904" default="48.452438354528695" value="48.452438354528695"/>
+										<parameter name="X" id="1" flags="12901679120" default="48.452438354478872" value="48.452438354478872"/>
+										<parameter name="Y" id="2" flags="12901679120" default="48.452438354528695" value="48.452438354528695"/>
 									</parameter>
 									<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
 								</parameter>
 							</parameter>
 							<behavior name="Move Back" id="2980870139" factoryID="12">
 								<timing in="10086076 120000 1 0" out="10444434 120000 1 0" offset="10086076 120000 1 0"/>
-								<baseFlags>8589934609</baseFlags>
+								<baseFlags>8589934608</baseFlags>
+								<enabled>0</enabled>
 								<parameter name="Position" id="200" flags="8589938688">
 									<foldFlags>11</foldFlags>
-									<parameter name="X" id="1" flags="8590065680" default="0" value="173.53124999999994"/>
-									<parameter name="Y" id="2" flags="8590065680" default="0" value="-21.85546875"/>
+									<parameter name="X" id="1" flags="8606842896" default="0" value="173.53124999999994"/>
+									<parameter name="Y" id="2" flags="8606842896" default="0" value="-21.85546875"/>
 								</parameter>
 							</behavior>
 						</scenenode>
 						<aspectRatio>1</aspectRatio>
 						<flags>0</flags>
 						<timing in="1781780 120000 1 0" out="36114078 120000 1 0" offset="0 1 1 0"/>
-						<foldFlags>0</foldFlags>
+						<foldFlags>8192</foldFlags>
 						<baseFlags>524304</baseFlags>
 						<parameter name="Properties" id="1" flags="8589938704">
 							<parameter name="Transform" id="100" flags="8589938704">
@@ -5918,7 +5911,7 @@
 						</parameter>
 						<behavior name="Move" id="2980869357" factoryID="12">
 							<timing in="6982976 120000 1 0" out="7341334 120000 1 0" offset="6982976 120000 1 0"/>
-							<baseFlags>8589934608</baseFlags>
+							<baseFlags>8589934609</baseFlags>
 							<parameter name="Position" id="200" flags="8589938688">
 								<foldFlags>11</foldFlags>
 								<parameter name="X" id="1" flags="8590065680" default="0" value="1125"/>
@@ -5934,7 +5927,7 @@
 						<parameter name="Transform" id="100" flags="8589938704">
 							<parameter name="Position" id="101" flags="8589938704">
 								<foldFlags>11</foldFlags>
-								<parameter name="X" id="1" flags="8589934608" default="0" value="2.8421709430404007e-14"/>
+								<parameter name="X" id="1" flags="8589934608" default="0" value="0"/>
 								<parameter name="Y" id="2" flags="8589934608" default="0" value="320"/>
 								<parameter name="Z" id="3" flags="8589934608" default="0" value="0"/>
 							</parameter>
@@ -8887,7 +8880,7 @@
 					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869754" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870902" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -8969,7 +8962,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869754" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870902" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9089,7 +9082,7 @@
 					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869764" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870912" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9171,7 +9164,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869764" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870912" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9252,7 +9245,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869764" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870912" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9372,7 +9365,7 @@
 					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869774" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870922" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9454,7 +9447,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869774" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870922" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9535,7 +9528,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869774" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870922" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9655,7 +9648,7 @@
 					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869784" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870932" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9737,7 +9730,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869784" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870932" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9818,7 +9811,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869784" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870932" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -9938,7 +9931,7 @@
 					<parameter name="Align to Path" id="333" flags="8589934610" default="1" value="1"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869794" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870942" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -10020,7 +10013,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869794" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870942" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -10101,7 +10094,7 @@
 					<parameter name="" id="236" flags="8589934610" default="1" value="0"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="1">
-					<parameter name="Substance" id="2980869794" flags="12884906002" factoryID="33">
+					<parameter name="Substance" id="2980870942" flags="12884906002" factoryID="33">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
